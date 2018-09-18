@@ -1,5 +1,13 @@
 ﻿################################################################################
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
-
+/aspnet-core/.vs
 /aspnet-core/.vs/fuwo/v15
+
+/aspnet-core/src/fuwo.Application/obj
+/aspnet-core/src/fuwo.Core/obj
+/aspnet-core/src/fuwo.EntityFrameworkCore/obj
+/aspnet-core/src/fuwo.Migrator/obj
+/aspnet-core/src/fuwo.Web.Core/obj
+/aspnet-core/src/fuwo.Web.Host/obj
+/aspnet-core/test/fuwo.Tests/obj
