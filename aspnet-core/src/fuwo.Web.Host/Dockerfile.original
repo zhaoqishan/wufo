@@ -1,0 +1,6 @@
+FROM microsoft/dotnet:latest
+
+WORKDIR /app
+COPY . .
+EXPOSE 80
+ENTRYPOINT ["dotnet", "fuwo.Web.Host.dll"]

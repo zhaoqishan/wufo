@@ -11,3 +11,14 @@
 /aspnet-core/src/fuwo.Web.Core/obj
 /aspnet-core/src/fuwo.Web.Host/obj
 /aspnet-core/test/fuwo.Tests/obj
+/aspnet-core/src/fuwo.Application/bin
+/.vs
+/aspnet-core/src/fuwo.Core/bin
+/aspnet-core/src/fuwo.Web.Core/bin
+/aspnet-core/src/fuwo.Migrator/bin
+/aspnet-core/src/fuwo.EntityFrameworkCore/bin
+/aspnet-core/src/fuwo.Web.Host/App_Data/Logs
+/aspnet-core/src/fuwo.Web.Host/bin
+/aspnet-core/src/fuwo.Web.Host/Properties
+/aspnet-core/test/fuwo.Tests/bin/Debug/netcoreapp2.1
+/aspnet-core/test/fuwo.Tests/bin/Release/netcoreapp2.1
