@@ -1,8 +1,8 @@
-FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
+FROM docker.io/microsoft/dotnet:latest-aspnetcore-runtime AS base
 WORKDIR /app
 EXPOSE 80
 
-FROM microsoft/dotnet:2.1-sdk AS build
+FROM docker.io/microsoft/dotnet:latest-sdk AS build
 WORKDIR /src
 COPY ["src/fuwo.Web.Host/fuwo.Web.Host.csproj", "src/fuwo.Web.Host/"]
 COPY ["src/fuwo.Web.Core/fuwo.Web.Core.csproj", "src/fuwo.Web.Core/"]
